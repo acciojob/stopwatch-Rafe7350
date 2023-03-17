@@ -69,8 +69,8 @@ function continueTimer() {
 // function to stop the stopwatch
 function stop() {
   // reset the variables and display, disable pause and stop buttons, enable start button
-  setTimeout(timer);
-//   clearInterval(timer);
+  
+  clearInterval(timer);
   hours = 0;
   minutes = 0;
   seconds = 0;
