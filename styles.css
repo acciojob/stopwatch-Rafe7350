@@ -1,2 +1,44 @@
+body{
+    background-color: yellow;
+}
+#time{
+display: flex;
+text-align: center;
+justify-content: center;
+background-color: blue;
+color: aliceblue;
+width: 168px;
+height: 50px;
+padding-top: 22px;
+}
+#start{
+margin-top: 10px;
+background-color: rgb(15, 169, 38);
+color: aliceblue;
+align-items: center;
+justify-content: center;
+padding: 10px;
 
-/* Your CSS Code here. */
+
+}
+#pause{
+    margin-top: 10px;
+    background-color: rgb(137, 6, 6);
+    color: aliceblue;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+#stop{
+    margin-top: 10px;
+    background-color: rgb(38, 28, 184);
+    color: aliceblue;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+    
+}
