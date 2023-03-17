@@ -109,10 +109,6 @@ function start() {
 // function to pause the stopwatch
 function pause() {
 
- pauseButton.disabled = true;
-  stopButton.disabled = false;
-  startButton.disabled = false;
-
   // stop the timer and update the button text
   clearInterval(timer);
   pauseButton.innerHTML = "Continue";
